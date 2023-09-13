@@ -17,6 +17,7 @@
 <p align='center'>Esse é um exemplo de lógica em javascript</p>
 <p align='center'>
  Faça um programa que, dada a altura de um determinado candidato, diga se ele está aprovado ou reprovado nessa primeira fase do processo.
+ Dada a altura de um determinado candidato, diga para qual posição ele deverá fazer o teste.
 </p>
 
 <p align='center'>
@@ -37,7 +38,14 @@
 
   <p align= 'justify'>
   Numa "peneira" (processo seletivo para novos jogadores) de vôlei, em alguns clubes, o primeiro filtro é ver se um determinado candidato tem a altura mínima necessária de 180cm. 
-  Imprima na tela APROVADO caso o jogador tenha 180cm de altura ou mais Imprima na tela REPROVADO caso o jogador tenha menos de 180cm
+  Após passar na primeira fase de uma peneira de vôlei, os candidatos aprovados são separados em grupos diferentes, de acordo com suas alturas, para serem testados para posições específicas.
+
+- Caso o jogador tenha menos de 180cm, o programa deve imprimir **REPROVADO**
+- Caso o jogador tenha mais de 180cm, o programa deve imprimir **APROVADO**
+- Caso tenha entre 180cm e 185cm, o programa deve imprimir **LÍBERO**
+- Caso tenha entre 186cm e 195cm, o programa deve imprimir **PONTEIRO**
+- Caso tenha entre 196cm e 205cm, o programa deve imprimir **OPOSTO**
+- Caso tenha mais de 205cm, o programa deve imprimir **CENTRAL**
   </p>
 
 ---
